@@ -1,5 +1,8 @@
-function strlen(){
+function strlen(text){
+    return text.length;
 }
 
-function concat(){
+function concat(text1, text2){
+    text = text1 + text2;
+    return text;
 }
